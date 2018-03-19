@@ -15,6 +15,6 @@ class PessoasController extends Controller
         return view(view 'pessoas.index',[
             'pessoas' => $list pessoas
         ] );
-        
+        //o que esta de errado aqui?
     }   
 }
